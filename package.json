@@ -3,9 +3,27 @@
   "version": "1.0.0",
   "description": "token-generator is a Node.js library that generates unique tokens consisting of numbers, alphabets, or both. Each generated token is guaranteed to be unique and non-repetitive.",
   "main": "./src/token-generator.js",
+  "module": "./src/token-generator.mjs",
+  "types": "./src/token-generator.d.ts",
+  "homepage": "https://github.com/vigneshwarvj/token-generator-library#readme",
+  "repository": {
+    "url": "https://github.com/vigneshwarvj/token-generator-library"
+  },
   "scripts": {
     "test": "jest"
   },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [
+    "token",
+    "generate",
+    "utilities",
+    "number",
+    "alphabets",
+    "alphanumeric",
+    "build"
+  ],
   "author": "vigneshvijay.vv",
   "license": "ISC",
   "devDependencies": {
